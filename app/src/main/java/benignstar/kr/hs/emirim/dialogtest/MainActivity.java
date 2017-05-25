@@ -18,10 +18,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        AlertDialog.Builder dlg=new AlertDialog.Builder(, this);
+        AlertDialog.Builder dlg=new AlertDialog.Builder(this);
         dlg.setTitle("Title");
         dlg.setMessage("Message");
         dlg.setIcon(R.drawable.idea);
+        dlg.setPositiveButton("OK",null);
+        dlg.setNegativeButton("Cancel",null);
         dlg.show();
     }
 }
