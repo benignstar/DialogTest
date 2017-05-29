@@ -4,9 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context="benignstar.kr.hs.emirim.dialogtest.MainActivity">
+    android:gravity="center"
+    tools:context="benignstar.kr.hs.emirim.dialogtest.MainActivity"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:layout_width="wrap_content"
